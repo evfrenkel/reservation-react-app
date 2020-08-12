@@ -1,0 +1,24 @@
+.rating {
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 1px solid rgba(45, 45, 45, 0.2);
+  max-width: 28rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+
+  + .chosen {
+    background-color: #bbb;
+    border-radius: 4px;
+  }
+}
+
+.rating-text {
+  font-size: .5rem;
+}

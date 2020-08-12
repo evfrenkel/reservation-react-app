@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+.header {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 $standard-page-margin;
+  height: 6rem;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.logo {
+  background-color: #2f2a8d;
+  width: 67px;
+  height: 16px;
+}
+
+.content-container {
+  padding: 0 $standard-page-margin;
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-top: 2rem;
+  padding: 2rem $standard-page-margin;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10rem;
+  background-color: #f2f2f2;
+}
